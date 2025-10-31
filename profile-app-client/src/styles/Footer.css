@@ -1,0 +1,30 @@
+.footer {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  margin-top: auto;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-links {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #29abe2;
+  margin: 0 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #ccc;
+}

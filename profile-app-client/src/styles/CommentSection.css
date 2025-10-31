@@ -1,0 +1,86 @@
+.comment-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.comment-section h3 {
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+  color: #333;
+}
+.comment-section form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.comment-section input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.comment-section input:focus {
+  border-color: #007bff;
+}
+
+.comment-section button[type='submit'] {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.comment-section button[type='submit']:hover {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.comment-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-section li {
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.comment-section li:hover {
+  background-color: #f0f0f0;
+}
+.comment-section li b {
+  color: #333;
+}
+
+.comment-section .delete-btn {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.1s ease;
+}
+
+.comment-section .delete-btn:hover {
+  color: #e53935;
+  transform: scale(1.1);
+}
